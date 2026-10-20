@@ -1,0 +1,1 @@
+GBIF logo artwork exported from the XD Styles board. `gbif-logo.svg`: green leaf (#4c9c2e) + black wordmark, for light grounds. `gbif-mark-green.svg`: the leaf alone in #4c9c2e, as used in the site header. `gbif-mark.svg`: the leaf in grey #858984, the small "GBIF icon" for quiet placements. Keep clear space of at least the leaf's width; never recolour or redraw.

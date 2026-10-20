@@ -1,0 +1,172 @@
+/* GBIF.org Design System — generated from tokens.json */
+:root {
+  --green-100: #4c9c2e;
+  --green-90: #5ea642;
+  --green-80: #70b058;
+  --green-70: #81ba6c;
+  --green-50: #a5cd96;
+  --green-40: #b7d7ab;
+  --green-30: #c9e1c0;
+  --green-20: #dbebd5;
+  --green-10: #edf5ea;
+  --ink-100: #231f20;
+  --ink-90: #393536;
+  --ink-80: #4f4c4d;
+  --ink-70: #656262;
+  --ink-60: #7b7979;
+  --ink-50: #918f8f;
+  --ink-40: #a7a5a6;
+  --ink-30: #bdbbbc;
+  --ink-20: #d3d2d2;
+  --ink-10: #e9e8e8;
+  --coral-100: #e37c72;
+  --coral-90: #e68980;
+  --coral-80: #e9968e;
+  --coral-70: #eba39c;
+  --coral-60: #eeb0aa;
+  --coral-50: #f1bdb8;
+  --coral-40: #f4cbc7;
+  --coral-30: #f7d7d4;
+  --coral-20: #f9e5e3;
+  --coral-10: #fcf2f1;
+  --pink-100: #d1628e;
+  --pink-90: #d67199;
+  --pink-80: #da81a5;
+  --pink-70: #df91b0;
+  --pink-60: #e3a1bb;
+  --pink-50: #e8b0c6;
+  --pink-40: #edc0d2;
+  --pink-30: #f1d0dd;
+  --pink-20: #f6e0e8;
+  --pink-10: #faeff3;
+  --peach-100: #ecac7c;
+  --peach-90: #eeb489;
+  --peach-80: #f0bd96;
+  --peach-70: #f2c5a3;
+  --peach-60: #f4cdb0;
+  --peach-50: #f5d5bd;
+  --peach-40: #f7decb;
+  --peach-30: #f9e6d7;
+  --peach-20: #fbeee5;
+  --peach-10: #fdf7f2;
+  --cyan-100: #00b7ee;
+  --cyan-90: #19bef0;
+  --cyan-80: #33c5f1;
+  --cyan-70: #4cccf3;
+  --cyan-60: #66d4f5;
+  --cyan-50: #7fdbf6;
+  --cyan-40: #99e2f8;
+  --cyan-30: #b2e9fa;
+  --cyan-20: #ccf1fc;
+  --cyan-10: #e5f8fd;
+  --periwinkle-100: #6885c0;
+  --periwinkle-90: #7791c6;
+  --periwinkle-80: #869dcd;
+  --periwinkle-70: #95a9d3;
+  --periwinkle-60: #a4b6d9;
+  --periwinkle-50: #b3c2df;
+  --periwinkle-40: #c3cee6;
+  --periwinkle-30: #d1daec;
+  --periwinkle-20: #e1e7f2;
+  --periwinkle-10: #f0f3f9;
+  --purple-100: #664192;
+  --purple-90: #75549d;
+  --purple-80: #8567a8;
+  --purple-70: #947ab2;
+  --purple-60: #a38dbe;
+  --purple-50: #b2a0c8;
+  --purple-40: #c2b3d3;
+  --purple-30: #d1c6de;
+  --purple-20: #e0d9e9;
+  --purple-10: #efecf4;
+  --yellow-100: #f2bf48;
+  --yellow-90: #f3c55a;
+  --yellow-80: #f5cc6d;
+  --yellow-70: #f6d27f;
+  --yellow-60: #f7d991;
+  --yellow-50: #f8dfa3;
+  --yellow-40: #fae5b6;
+  --yellow-30: #fbecc8;
+  --yellow-20: #fcf2da;
+  --yellow-10: #fef8ec;
+  --ocean-100: #0078b4;
+  --ocean-90: #1985bb;
+  --ocean-80: #3393c3;
+  --ocean-70: #4ca0ca;
+  --ocean-60: #66aed2;
+  --ocean-50: #7fbbd9;
+  --ocean-40: #99c9e1;
+  --ocean-30: #b2d6e8;
+  --ocean-20: #cce4f0;
+  --ocean-10: #e5f1f7;
+  --paper: #f8f7f7;
+  --white: #ffffff;
+  --surface-sunken: #efefef;
+  --surface-header: #f5f5f7;
+  --surface-filterbar: #e8e8ed;
+  --ink-strong: #575757;
+  --ink-control: #414141;
+  --border-control: #7a7e79;
+  --icon-control: #4b5348;
+  --green-stroke: #499134;
+  --fill-control: #bfbfbf;
+  --fill-chip: rgba(0,0,0,0.104);
+  --border-popover: #b7b7b7;
+  --tooltip: var(--ink-80);
+  --brand: var(--green-100);
+  --brand-soft: var(--green-10);
+  --on-brand: var(--white);
+  --text: var(--ink-80);
+  --text-muted: var(--ink-60);
+  --text-subtle: var(--ink-50);
+  --border: var(--ink-20);
+  --border-subtle: var(--ink-10);
+  --focus-ring: var(--green-100);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-full: 999px;
+  --shadow-card: 1px 1px 3px rgba(0,0,0,0.16);
+  --shadow-header: 0 1px 0.5px rgba(0,0,0,0.16);
+  --shadow-panel: 0 3px 3px rgba(0,0,0,0.16);
+  --shadow-raised: 0 5px 6.5px rgba(0,0,0,0.16);
+  --shadow-hover: 5px 10px 10px rgba(0,0,0,0.16);
+  --shadow-report: 0 1px 1.5px rgba(0,0,0,0.16);
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: Bitter, Georgia, serif;
+  --font-ui: Rubik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-caption: Cormorant, Georgia, serif;
+  --font-overline: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.h1 { font-family: var(--font-sans); font-size: 48px; line-height: 70px; font-weight: 700; }
+.h2 { font-family: var(--font-sans); font-size: 38px; line-height: 1.2; font-weight: 700; }
+.h3 { font-family: var(--font-sans); font-size: 32px; line-height: 44px; font-weight: 700; }
+.h4 { font-family: var(--font-sans); font-size: 24px; line-height: 34px; font-weight: 700; }
+.h5 { font-family: var(--font-sans); font-size: 20px; line-height: 30px; font-weight: 700; }
+.h6 { font-family: var(--font-sans); font-size: 16px; line-height: 25.6px; font-weight: 700; }
+.body-1 { font-family: var(--font-sans); font-size: 16px; line-height: 25.6px; font-weight: 400; }
+.body-2 { font-family: var(--font-sans); font-size: 14px; line-height: 22.4px; font-weight: 400; }
+.subtitle-1 { font-family: var(--font-ui); font-size: 16px; line-height: 34px; font-weight: 600; text-transform: uppercase; }
+.subtitle-2 { font-family: var(--font-ui); font-size: 14px; line-height: 34px; font-weight: 600; text-transform: uppercase; }
+.button { font-family: var(--font-sans); font-size: 16px; line-height: 25.6px; font-weight: 700; }
+.caption { font-family: var(--font-caption); font-size: 16px; line-height: 25.6px; font-weight: 500; font-style: italic; }
+.overline { font-family: var(--font-overline); font-size: 10px; line-height: 16px; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; }
+.card-title { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 500; }
+.card-body { font-family: var(--font-sans); font-size: 14px; line-height: 17.5px; font-weight: 400; }
+.nav { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 500; }
+.label { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 500; text-transform: uppercase; }
+.serif-h1 { font-family: var(--font-serif); font-size: 60px; line-height: 70px; font-weight: 600; }
+.serif-h2 { font-family: var(--font-serif); font-size: 48px; line-height: 1.2; font-weight: 600; }
+.serif-h3 { font-family: var(--font-serif); font-size: 34px; line-height: 44px; font-weight: 600; }
+.serif-h4 { font-family: var(--font-serif); font-size: 24px; line-height: 34px; font-weight: 600; }
+.serif-h5 { font-family: var(--font-serif); font-size: 20px; line-height: 30px; font-weight: 600; }
+.serif-h6 { font-family: var(--font-serif); font-size: 16px; line-height: 25.6px; font-weight: 700; }
+.rubik-body-1 { font-family: var(--font-ui); font-size: 16px; line-height: 25.6px; font-weight: 400; }
+.rubik-body-2 { font-family: var(--font-ui); font-size: 14px; line-height: 22.4px; font-weight: 400; }

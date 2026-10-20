@@ -1,0 +1,1 @@
+Occurrence photographs used in the XD designs (news cards, gallery, post header, result thumbnails), kept for previews and mock-ups. Real pages show each image's own licence and credit (e.g. the crocodile is credited "© Marc Faucher").

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css"><script src="../../vendor/react.production.min.js"></script><script src="../../vendor/react-dom.production.min.js"></script><script src="../bundle.js"></script>
+<meta charset="utf-8">
+<title>GBIF.org</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--white); color:var(--text); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .brand { fill:var(--brand); }
+  .ink { fill:var(--ink-80); }
+  .tint { fill:var(--green-20); }
+  .sunk { fill:var(--surface-sunken); }
+  .ocean { fill:var(--ocean-100); }
+  .yellow { fill:var(--yellow-100); }
+  .leaf-soft { fill:var(--green-10); }
+  .leaf-brand { fill:var(--brand); }
+  .words { position:absolute; left:var(--space-10); bottom:var(--space-10); max-width:440px; }
+  .name { margin:0; font-size:96px; line-height:.92; font-weight:700; letter-spacing:-.02em; color:var(--ink-80); }
+  .tag { margin:var(--space-3) 0 0 4px; font-size:14px; line-height:20px; color:var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      brand 240x256 bled off the top (the leaf green, largest) · ink-80 128x176 bleeding right · green-20 tint 112x96 · ocean-100 and yellow-100 32x32 (categorical hues, small) · surface-sunken ground strip
+  arrangement one tall green slab with satellites, bottoms on one line space-10 above the edge, space-4 gutters
+  pattern     the GBIF leaf itself (exact path from the logo artwork): one large whole leaf in green-10 on the slab, one leaf at mark size in brand on the tint
+  scales      sides in space-4/space-8 multiples; gutters space-4; corners radius-sm on blocks, radius-xs on chips
+-->
+<defs>
+  <symbol id="gbif-leaf" viewBox="0 0 74.27 72.1"><path transform="translate(47.56 972.69)" fill-rule="evenodd" d="M -14.11 -914.96 C -18.85 -919.7 -25.56 -927.59 -35.07 -927.59 C -39.18 -927.59 -43.46 -926.13 -46.7 -923.13 C -46.91 -922.94 -47.26 -922.59 -47.47 -922.7 C -47.75 -922.85 -47.29 -923.68 -47.06 -924.08 C -44.06 -929.22 -36.96 -933.12 -28.01 -933.77 C -32.57 -946.98 -29.6 -963.22 -24.85 -972.69 C -20.57 -963.65 -17.35 -947.18 -21.77 -933.91 C -11.69 -933.91 -0.64 -931.57 8.34 -927.07 C 20.07 -921.34 26.71 -913.38 26.71 -902.25 C 23.69 -901.14 20.75 -900.59 16.93 -900.59 C 16.9 -900.59 16.87 -900.59 16.85 -900.59 C 5.99 -900.59 -3.95 -904.8 -14.11 -914.96 Z M 11.49 -963.78 C 11.49 -949.68 2.21 -937.53 -15.81 -937.53 C -15.81 -951.6 -8.94 -963.78 11.49 -963.78 Z"/></symbol>
+  <clipPath id="slab"><rect x="16" y="-8" width="240" height="256" rx="4"/></clipPath>
+</defs>
+<rect class="sunk" x="0" y="248" width="480" height="40"/>
+<rect class="brand" x="16" y="-8" width="240" height="256" rx="4"/>
+<g clip-path="url(#slab)"><use href="#gbif-leaf" class="leaf-soft" x="36" y="28" width="200" height="194"/></g>
+<rect class="tint" x="272" y="152" width="112" height="96" rx="4"/>
+<use href="#gbif-leaf" class="leaf-brand" x="300" y="170" width="58" height="56"/>
+<rect class="ink" x="400" y="72" width="96" height="176" rx="4"/>
+<rect class="ocean" x="272" y="104" width="32" height="32" rx="2"/>
+<rect class="yellow" x="320" y="104" width="32" height="32" rx="2"/>
+</svg>
+</div>
+<div class="words">
+  <h1 class="name">GBIF.org</h1>
+  <p class="tag">Free and open access to biodiversity data</p>
+</div>
+</div>
+<script>(function(){function s(){parent.postMessage({dsPreview:location.pathname,h:document.documentElement.scrollHeight},"*")}new ResizeObserver(s).observe(document.body);addEventListener("load",s);setTimeout(s,300)})();</script></body>
+</html>

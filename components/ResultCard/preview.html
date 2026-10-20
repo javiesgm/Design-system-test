@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../tokens/tokens.css"><link rel="stylesheet" href="../bundle.css"><script src="../../vendor/react.production.min.js"></script><script src="../../vendor/react-dom.production.min.js"></script><script src="../bundle.js"></script><meta charset="utf-8"><title>ResultCard</title></head>
+<body style="margin:0;padding:16px;font-family:var(--font-sans);color:var(--text);background:var(--white);">
+<div id="root" style="display:grid;gap:16px;justify-items:start"></div>
+<script>
+  var G = window.GBIF, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById("root")).render(h(React.Fragment, null, h('div',{style:{display:'grid',gap:16}},h(G.ResultCard,{type:'checklist-dataset',pill:true,title:'Description of Babesia coryicola sp. nov. from Florida pumas (Puma concolor coryi) from southern Florida, USA',description:'This dataset contains the digitized treatments in Plazi based on the original journal article Shock, Barbara C., Jones, Håkon H., Garrett, Kayla B., Hernandez, Sonia M., Burchfield, Holly J., Haman…',meta:'Published by Plazi.org taxonomic treatments database',counts:[{icon:'occurrences',label:'1 occurrence'},{icon:'list',label:'1 record'},{icon:'quote',label:'1 citations'}]}),h(G.ResultCard,{type:'occurrence-dataset',pill:true,title:'Suivi des attaques de Jaguar et Puma',description:'Suivi des attaques de Jaguar et Puma',meta:'Published by Plazi.org taxonomic treatments database',image:'../../assets/images/branch.jpg',counts:[{icon:'occurrences',label:'156 occurrences'},{icon:'quote',label:'39 citations'}]}))));
+</script>
+<script>(function(){function s(){parent.postMessage({dsPreview:location.pathname,h:document.documentElement.scrollHeight},"*")}new ResizeObserver(s).observe(document.body);addEventListener("load",s);setTimeout(s,300)})();</script></body></html>
